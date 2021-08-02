@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import View.Graphs.*?>
+<?import View.Icons.*?>
+<?import View.Joystick.*?>
+<?import View.ListView.*?>
+
+<BorderPane prefHeight="200" prefWidth="60" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MainController">
+    <left>
+        <ListView fx:id="MyListView" prefWidth="200.0"/>
+    </left>
+    <center>
+        <Graphs fx:id="MyGraph" prefWidth="100.0"/>
+    </center>
+    <right>
+        <Joystick fx:id="MyJoystick" prefWidth="400.0"/>
+    </right>
+    <bottom>
+        <Icons fx:id="myIcons" prefHeight="200.0"/>
+    </bottom>
+</BorderPane>
+
